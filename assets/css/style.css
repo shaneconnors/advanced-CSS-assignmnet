@@ -38,10 +38,18 @@ a {
 }
 
 .hero {
-        height: 400px;
-        width: 100%;
-        margin-bottom: 25px;
-        background-image: url("../images/darkbluehero.jpg");
-        background-size: cover;
-        background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/darkbluehero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    padding: 300px 80px 80px 80px;
+    font-weight: normal;
+    font-size: 42px;
+    color: #ffffff;
+    text-align: right;
 }
