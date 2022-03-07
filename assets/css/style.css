@@ -12,7 +12,10 @@
 .header h1 {
     display: inline-block;
     font-size: 26px;
-    color: #d9dcd6; 
+    color: #2a607c; 
+    background-color: #ffffff;
+    padding: 15px;
+    margin-left: -20px;
 }
 
 .header nav {
@@ -79,8 +82,10 @@ a {
     right: 20px;
     bottom: 20px;
     font-size: 40px;
-    color: #ffffff;
+    color: #2a607c;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    padding: 15px;
 }
 
 .section-title {
@@ -113,7 +118,7 @@ a {
 
 .container img {
     border: #68cbd6 solid 3px;
-    height: 200px;
+    height: 150px;
     width: 600px;
 }
 
@@ -127,13 +132,13 @@ a {
 
 .container-even img {
     border: #68cbd6 solid 3px;
-    height: 200px;
+    height: 150px;
     width: 560px;
 }
 
 .primary-container img {
     border: #68cbd6 solid 3px;
-    height: 400px;
+    height: 300px;
     width: 1200px;
 }
 
