@@ -105,11 +105,12 @@ a {
 
 .container {
     position: relative;
+    padding: 10px;
 }
 
 .container img {
     border: #68cbd6 solid 3px;
-    height: 400px;
+    height: 200px;
     width: 400px;
     object-fit: cover;
     flex-wrap: wrap;
@@ -118,15 +119,20 @@ a {
 .primary-container img {
     border: #68cbd6 solid 3px;
     height: 400px;
-    width: 800px;
-    object-fit: cover;
+    width: 100%;
     flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.primary-container {
+    position: relative;
+    
 }
 
 .text-block {
     position: absolute;
     bottom: 20px;
-    left: 0px;
+    left: 10px;
     background-color: #68cbd6;
     color: #2a607c;
     padding-left: 20px;
