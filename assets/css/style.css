@@ -103,6 +103,11 @@ a {
     flex: 0 0 75%;
 }
 
+.all.projects {
+    display: flex;
+    justify-content: right;
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -140,12 +145,13 @@ a {
     border: #68cbd6 solid 3px;
     height: 300px;
     width: 1200px;
+    
 }
 
 .primary-container {
     position: relative;  
     padding: 15px;
-    padding-right: 50px;
+    padding-left: 350px;
 }
 
 .text-block {
@@ -170,6 +176,16 @@ a {
     font-size: 20px;
 }
 
+.primary-text-block{
+    position: absolute;
+    bottom: 30px;
+    left: 350px;
+    background-color: #68cbd6;
+    color: #2a607c;
+    padding-left: 15px;
+    padding-right: 15px; 
+    font-size: 20px;
+}
 .text-block p {
     font-size: 16px;
 
@@ -187,3 +203,23 @@ a {
     color: #2a607c;
     margin: auto;
 }
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
