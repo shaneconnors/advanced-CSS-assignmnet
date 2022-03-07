@@ -103,11 +103,6 @@ a {
     flex: 0 0 75%;
 }
 
-.all.projects {
-    display: flex;
-    justify-content: right;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -157,11 +152,9 @@ a {
 .text-block {
     position: absolute;
     bottom: 30px;
-    left: 15px;
     background-color: #68cbd6;
     color: #2a607c;
-    padding-left: 15px;
-    padding-right: 15px; 
+    padding-left: 15px; 
     font-size: 20px;
 }
 
@@ -195,7 +188,7 @@ a {
     justify-content: space-evenly;
     text-decoration: underline;
     font: bold;
-    padding: 15px 80px;
+    padding: 15px 30px;
 
 }
 
@@ -204,22 +197,79 @@ a {
     margin: auto;
 }
 
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
     }
-  }
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+    
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
   
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
       width: 100%;
     }
+  
+    .hero {
+      width: 100%;
+    }
+    
+    .hero {
+      text-align: center;
+    }
+  
+    .section-title {
+      width: 80%;
+    }
+    
   }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  
+  
+    .img {
+      width: 55%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  
+  
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+  
+    .section-title {
+      width: 95%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    } 
+  
+  
+    }
